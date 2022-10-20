@@ -1,0 +1,17 @@
+{
+  "name": "graphql-blog-apollo-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^3.10.3",
+    "apollo-server-core": "^3.10.3",
+    "graphql": "^16.6.0"
+  }
+}
