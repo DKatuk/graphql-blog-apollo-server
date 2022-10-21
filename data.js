@@ -1,15 +1,24 @@
 const users = [
   {
     id: "1",
-    fullName: "Dilara Katuk",
+    name: "Dilara",
+    surname: "Katuk",
+    dateOfBirth: "1996-12-08",
+    email: "dilarakatuk@gmail.com",
   },
   {
     id: "2",
-    fullName: "John Doe",
+    name: "John",
+    surname: "Doe",
+    dateOfBirth: "1990-01-01",
+    email: "test.johndoe@test.com",
   },
   {
     id: "3",
-    fullName: "Jane Doe",
+    name: "Jane",
+    surname: "Doe",
+    dateOfBirth: "1990-01-02",
+    email: "test.janedoe@test.com",
   },
 ];
 
