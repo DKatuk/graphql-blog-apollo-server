@@ -111,7 +111,7 @@ const resolvers = {
     },
     deletePost: (parent, { id }) => {
       let postIndex = posts.findIndex((post) => post.id === id);
-      if (postIndex=== -1) {
+      if (postIndex === -1) {
         throw new Error("Post not found");
       }
       const deletedPost = posts[postIndex];
@@ -130,17 +130,17 @@ const resolvers = {
 
     // DELETE ALL MUTATIONS
     deleteAllUsers: () => {
-      const lenght= users.length;
+      const lenght = users.length;
       users.splice(0, users.length);
       return { count: lenght };
     },
     deleteAllPosts: () => {
-      const lenght= posts.length;
+      const lenght = posts.length;
       posts.splice(0, posts.length);
       return { count: lenght };
     },
     deleteAllComments: () => {
-      const lenght= comments.length;
+      const lenght = comments.length;
       comments.splice(0, comments.length);
       return { count: lenght };
     },
