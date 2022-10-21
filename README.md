@@ -7,7 +7,8 @@
 - Go to GraphQL Playground at http://localhost:4000/
 
 
-<ins>**Possible Queries** ( Copy&Paste these Queries, Click Prettify💅, and Click Execute Query ▶️)</ins>
+<ins>**Possible Queries** ( Copy&Paste these Queries and Click Execute Query ▶️)</ins>
+````
 
 query getAllUsers {
   users {
@@ -115,5 +116,7 @@ query getUserData {
     }
   }
 }
+
+````
 
 ![FireShot Capture 062 - Playground - http___localhost_4000_ - localhost](https://user-images.githubusercontent.com/100930519/197047557-15c2414a-a45c-4d12-9b5a-25b72a447c9b.png)
