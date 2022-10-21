@@ -57,11 +57,13 @@ const resolvers = {
   },
   User: {
     posts: (parent) => posts.filter((post) => post.user_id === parent.id),
-    comments: (parent) => comments.filter((comment) => comment.post_id === parent.id),
+    comments: (parent) =>
+      comments.filter((comment) => comment.post_id === parent.id),
   },
   Post: {
     user: (parent) => users.find((user) => user.id === parent.user_id),
-    comments: (parent) => comments.filter((comment) => comment.post_id === parent.id),
+    comments: (parent) =>
+      comments.filter((comment) => comment.post_id === parent.id),
   },
   Comment: {
     user: (parent) => users.find((user) => user.id === parent.user_id),
